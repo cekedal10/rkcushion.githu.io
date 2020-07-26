@@ -1,0 +1,88 @@
+header{
+	background-color: grey;
+	height: 55px;
+	width: 99%;
+	border-radius: 0px;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 6px;
+	font-family: "calibri",monotype;
+	border: 7px solid transparent;
+	border-radius: 13px;
+	transition: 0.3s;
+	font-size: 20px;
+	font-weight: bold;
+}	
+ul li a:hover{
+	background-color: black;
+	color: white;
+	}
+ul li .active{
+	background-color: black;
+	color: black;
+}
+/*main img{
+	height: 700px;
+    width: 1570px;
+}*/
+.icon img{
+    height: 300px;
+    width: 300px;
+    padding-top: 100
+}
+main img{
+	height: 700px;
+    width: 100%;
+    border-bottom: 10px solid black;
+    padding-bottom: 4px;
+}
+h1{
+	text-align: center;
+	font-family: "gill sans mt",monotype;
+	margin-top: 93px;
+    font-size: 45px;
+
+}
+.gambar img{
+    height: 350px;
+    padding-left: 0px;
+    border-radius: 50px;
+    border: 30px solid transparent;
+    
+}
+.gambar p{
+    margin-left: 350px;
+    margin-right: 300px;
+    font-size: 20px;
+    font-family: cambria;    
+}
+footer{
+    background-color: grey;
+    height: 160px;
+    font-size: 19px;
+    font-family: cambria;
+    text-align: center;
+}
+footer .media img{
+    width: 50px;
+    padding-left: 890px;
+}
+footer .media p{
+    margin-right: 850px;
+    padding-top: 15px;
+
+}
+
+
